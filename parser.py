@@ -345,5 +345,3 @@ if __name__ == '__main__':
     # Запускаем наш парсер на тестовом пакете
     egts = parse_transport(data)
 
-    # Красиво печатаем полученные данные
-    pprint.pprint(asdict(egts))
